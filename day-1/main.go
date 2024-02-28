@@ -41,6 +41,9 @@ func main() {
 		case "1" :
 			kalkulator(name)
 			screen = false
+		default :
+			fmt.Println("Menu Tidak Tersedia!")
+			sleepScreen(2)
 		}
 	}
 }
