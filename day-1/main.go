@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-
+	var baru string
 	var menu string
 	screen := true
 	var name string
